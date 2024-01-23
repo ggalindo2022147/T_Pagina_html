@@ -1,8 +1,9 @@
 body {
+    background-image: url('/assets/resource/img/fondo3.jpg');
+    background-attachment: fixed; 
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: burlywood;
     text-align: center;
 }
 
