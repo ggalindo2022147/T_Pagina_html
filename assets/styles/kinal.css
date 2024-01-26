@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.header {
+
+    align-items: center;
+    text-align: center;
+}
+
+.container header{
+    width: 100%;
+    height: 150px;
+    background-color: #14243c;
+    margin: auto;
+}
+
+.container header .containerheader {
+    max-width: 1500;
+    height: 80;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: auto;   
+    padding: 30px 30px;
+}
+
+.container header .containerheader img {
+    width: 170px;
+    height: 70;
+}
+
+.container header .containerheader nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 260px;
+}
+
+.container header .containerheader nav ul li a {
+    text-decoration: none;
+    color: snow;
+    margin: 0 25px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container header .containerheader nav ul li a:hover {
+    color: orangered;
+}
+
+.sectionA img {
+    width: 100%;
+    height: 650px;
+    clip-path: polygon(20% 0%, 0 0, 0 49%, 0% 80%, 20% 100%, 50% 90%, 80% 100%, 100% 80%, 100% 49%, 100% 0, 80% 0%, 50% 0);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.sectionB {
+    height: 100vh;
+}
