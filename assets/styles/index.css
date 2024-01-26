@@ -36,10 +36,14 @@ nav a {
     font-weight: bold;
 }
 
-section {
+#PasaTiempo {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     margin: 20px;
     text-align: left;
-    max-width: 600px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
@@ -62,4 +66,38 @@ section p {
 
 .contenedor p {
     font-size: 25px;
+}
+
+.contenedor img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+}
+
+.contenedor2 {
+    padding: 15px;
+    margin: 15px;
+    width: 500px ;
+}
+.contenedor2 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid grey;
+    border-radius: 40px;
+    width: 350px;
+    height: 350px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    height: 80px;
+    font-size: 20px;
+    margin-top: auto;
 }
