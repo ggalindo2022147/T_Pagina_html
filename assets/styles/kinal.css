@@ -62,6 +62,118 @@
     object-fit: cover;
 }
 
-.sectionB {
-    height: 100vh;
+.boxesContainer {
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cardBox {
+    float: left;
+    font-size: 1.2em;
+    margin: 50px;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+}
+
+.cardBox:hover .card {
+    transform: rotateY(180deg);
+}
+
+.card {
+    border: 5px solid orangered;
+    border-radius: 15px;
+    cursor: default;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: #14243c;
+    display: block;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.back {
+    transform: rotateY( 180deg);
+}
+
+p {
+    margin-bottom: 1.8em;
+}
+   
+strong {
+    background: #fff;
+    border-radius: 100%;
+    color: #222;
+    font-size: 1.5em;
+    line-height: 30px;
+    padding: 0 7px 4px 6px;
+}
+   
+a {
+    padding: 0.3em 0.5em;
+    color: #14243c;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    transition: all 0.2s ease 0s;
+}
+   
+.sectionB a:hover {
+    background: grey;
+    color: #fff;
+    text-shadow: 0 0 1px #333;
+}
+
+.sectionC a:hover {
+    background: grey;
+    color: #fff;
+    text-shadow: 0 0 1px #333;
+}
+
+.sectionD img {
+    background-position: center;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: #14243c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-image {
+    max-width: 100%;
+    position: absolute;
+    top: 2950px;
+}
+
+.column-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.column {
+    flex: 1;
+    text-align: left;
+    font-size: 18px;
+    padding: 0 20px;
 }
